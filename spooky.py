@@ -290,8 +290,6 @@ apt-get update
 apt-get upgrade
 git clone https://github.com/hahwul/a2sv.git
 cd a2sv
-pip install argparse
-pip install netaddr
 cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
