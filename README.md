@@ -4,6 +4,6 @@ how to install ?? <br>
 apt update && apt upgrade <br>
 apt install git <br>
 git clone https://github.com/rzkyrmajvnka/Spooky<br>
-cd Spookytools<br>
+cd Spooky<br>
 chmod 777 spooky <br>
 ./spooky.py
