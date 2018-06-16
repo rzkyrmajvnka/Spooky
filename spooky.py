@@ -182,8 +182,6 @@ then
 clear
 echo -e $red" Installing wpbf "
 sleep 1
-apt install git
-apt install python2
 git clone https://github.com/atarantini/wpbf
 cd ~/
 echo -e $red" T E R I N S T A L L "
@@ -286,8 +284,6 @@ then
 clear
 echo -e $red" a2sv "
 sleep 1
-apt-get update
-apt-get upgrade
 git clone https://github.com/hahwul/a2sv.git
 cd a2sv
 cd ~/
