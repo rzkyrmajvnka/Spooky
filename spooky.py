@@ -272,9 +272,9 @@ echo -e $red" Installing WAScan "
 sleep 1
 git clone https://github.com/m4ll0k/WAScan.git
 cd wascan 
-pip install -r requirements.txt
 cd ~/
 echo -e $red" T E R I N S T A L L "
+echo -e $yellow" Usage : python wascan.py --url http://yourtarget.com "
 fi
 
 if [ $act = 16 ] || [ $act = 16 ]
@@ -310,7 +310,7 @@ git clone https://github.com/koboi137/dirspy
 cd dirspy
 cd ~/
 echo -e $red" T E R I N S T A L L "
-echo -e $red" Usage : python2 dirspy.py http://coli.il "
+echo -e $yellow" Usage : python2 dirspy.py http://coli.il "
 fi
 
 if [ $act = 19 ] || [ $act = 19 ]
@@ -323,7 +323,7 @@ cd theHarvester/
 sudo pip install requests
 cd ~/
 echo -e $red" T E R I N S T A L L "
-echo -e $red" Usage : python theHarvester.py -d yourweb.com -l 100 -b google "
+echo -e $yellow" Usage : python theHarvester.py -d yourweb.com -l 100 -b google "
 fi
 
 if [ $act = 20 ] || [ $act = 20 ]
@@ -336,7 +336,7 @@ cd dnscan/
 pip install -r requirements.txt
 cd ~/
 echo -e $red" T E R I N S T A L L "
-echo -e $red" Usage : python dnscan.py -d yourtarget.co.li "
+echo -e $yellow" Usage : python dnscan.py -d yourtarget.co.li "
 fi
 
 if [ $act = 21 ] || [ $act = 21 ]
@@ -349,7 +349,7 @@ cd Brutesploit
 chmod +x Brutesploit
 cd ~/
 echo -e $red" T E R I N S T A L L "
-echo -e $red" Usage : ./Brutesploit or sudo ./Brutesploit "
+echo -e $yellow" Usage : ./Brutesploit or sudo ./Brutesploit "
 fi
 
 if [ $act = 21 ] || [ $act = 21 ]
@@ -362,7 +362,7 @@ cd Vegile
 chmod +x Vegile
 cd ~/
 echo -e $red" T E R I N S T A L L "
-echo -e $red" Usage : ./Vegile --h  = for help "
+echo -e $yellow" Usage : ./Vegile --h  = for help "
 fi
 
 if [ $act = 99 ] || [ $act = 99  ]
