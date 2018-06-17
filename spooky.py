@@ -196,7 +196,6 @@ then
 clear
 echo -e $red" Installing Dracnmap "
 sleep 1
-apt update && apt install -y wget
 git clone https://github.com/Screetsec/Dracnmap.git
 cd Dracnmap
 chmod +x dracnmap-v2.2.sh
