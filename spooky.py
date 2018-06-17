@@ -201,7 +201,7 @@ cd Dracnmap
 chmod +x dracnmap-v2.2.sh
 cd ~/
 echo -e $red" T E R I N S T A L L "
-echo -e $red" Usage : ./dracnmap-v2.2.sh "
+echo -e $yellow" Usage : ./dracnmap-v2.2.sh "
 fi
 
 if [ $act = 10 ] || [ $act = 10 ]
