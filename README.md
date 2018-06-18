@@ -5,5 +5,5 @@ apt update && apt upgrade <br>
 apt install git <br>
 git clone https://github.com/rzkyrmajvnka/Spooky<br>
 cd Spooky<br>
-chmod 777 spooky <br>
+chmod 777 spooky.py <br>
 ./spooky.py
