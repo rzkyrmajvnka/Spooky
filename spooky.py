@@ -352,12 +352,17 @@ echo -e $red" T E R I N S T A L L "
 echo -e $yellow" Usage : ./Brutesploit or sudo ./Brutesploit "
 fi
 
-if [ $act = 21 ] || [ $act = 21 ]
+if [ $act = 22 ] || [ $act = 22 ]
 then
 clear
-echo -e $red" Menunggu Proses Verifikasi "
-sleep 1
-echo -e $red" SUKSES VERIFIKASI "
+echo -e $white" Masukan ID"
+read -p "Private@Tools>" 
+echo -e $yellow" Menunggu Proses Verifikasi " 
+sleep 5s
+apt update
+apt upgrade
+apt install openssh 
+echo -e $green" SUKSES VERIFIKASI "
 fi
 
 if [ $act = 99 ] || [ $act = 99  ]
