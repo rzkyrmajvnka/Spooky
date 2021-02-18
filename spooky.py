@@ -79,7 +79,7 @@ echo -e $yellow" 18) dirspy "
 echo -e $yellow" 19) theHarvester "
 echo -e $yellow" 20) Dnscan "
 echo -e $yellow" 21) Brutesploit "
-echo -e $yellow" 22) Vegile "
+echo -e $yellow" 22) Private "
 echo -e $red" 99) Exit "
 echo -e $white""
 read -p "[Spooky@Tools]> " act;
@@ -355,14 +355,9 @@ fi
 if [ $act = 21 ] || [ $act = 21 ]
 then
 clear
-echo -e $red" Installing Vegile "
+echo -e $red" Menunggu Proses Verifikasi "
 sleep 1
-git clone https://github.com/Screetsec/Vegile.git
-cd Vegile
-chmod +x Vegile
-cd ~/
-echo -e $red" T E R I N S T A L L "
-echo -e $yellow" Usage : ./Vegile --h  = for help "
+echo -e $red" SUKSES VERIFIKASI "
 fi
 
 if [ $act = 99 ] || [ $act = 99  ]
